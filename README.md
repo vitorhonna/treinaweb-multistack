@@ -45,7 +45,7 @@
 ## 🕓 Carga Horária
 
 - ✔️ Aula 1 (1h54)
-- ❌ Aula 2 (2h03)
+- ✔️ Aula 2 (2h03)
 - ❌ Aula 3 (1h43)
 - ❌ Aula 4 (1h28)
 - ❌ Aula 5 (1h46)
