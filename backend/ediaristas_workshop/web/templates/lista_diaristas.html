@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-
+{% load easy_mask %}
 {% block conteudo %}
 <br>
 <a href="{% url 'cadastrar_diarista' %}" class="btn btn-primary">Novo Cadastro</a>
@@ -20,7 +20,7 @@
                 <td>{{diarista.id}}</td>
                 <td>{{diarista.nome_completo}}</td>
                 <td>{{diarista.email}}</td>
-                <td>{{diarista.cep}}</td>
+                <td>{{diarista.cep | cep}}</td>
                 <td>
                     <a href="{% url 'editar_diarista' diarista.id %}">Editar</a>
                     <a href="{% url 'remover_diarista' diarista.id %}">Remover</a>
