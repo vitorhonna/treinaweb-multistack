@@ -17,13 +17,13 @@
     <tbody>
         {% for diarista in diaristas %}
             <tr>
-                <td>{{diarista.id}}</td>
-                <td>{{diarista.nome_completo}}</td>
-                <td>{{diarista.email}}</td>
-                <td>{{diarista.cep | cep}}</td>
-                <td>
-                    <a href="{% url 'editar_diarista' diarista.id %}">Editar</a>
-                    <a href="{% url 'remover_diarista' diarista.id %}">Remover</a>
+                <td class="align-middle">{{diarista.id}}</td>
+                <td class="align-middle">{{diarista.nome_completo}}</td>
+                <td class="align-middle">{{diarista.email}}</td>
+                <td class="align-middle">{{diarista.cep | cep}}</td>
+                <td class="align-middle">
+                    <a type="button" class="btn btn-secondary" href="{% url 'editar_diarista' diarista.id %}">Editar</a>
+                    <a type="button" class="btn btn-danger" href="{% url 'remover_diarista' diarista.id %}">Remover</a>
                 </td>
             </tr>
         {% endfor %}
