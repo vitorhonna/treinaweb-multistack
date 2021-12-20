@@ -4,7 +4,7 @@
   
   ![cover image](images/cover.png)
   
-  Workshop da TreinaWeb de 6 a 13 de outubro de 2021
+  Workshop da TreinaWeb de 6 a 13 de outubro de 2021.
   
 </div>
 
