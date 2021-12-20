@@ -44,8 +44,8 @@
 
 ## 🕓 Carga Horária
 
-- ✔️ Aula 1 (1h54)
-- ✔️ Aula 2 (2h03)
-- ✔️ Aula 3 (1h43)
-- ✔️ Aula 4 (1h28)
-- ❌ Aula 5 (1h46)
+- ✔️ Aula 1 (1h54) (Front-End)
+- ✔️ Aula 2 (2h03) (Front-End)
+- ✔️ Aula 3 (1h43) (Back-End)
+- ✔️ Aula 4 (1h28) (Back-End)
+- ❌ Aula 5 (1h46) (Mobile)
